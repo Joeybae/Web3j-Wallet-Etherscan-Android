@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.web3j:tuples:3.1.1-android@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/tuples/3.1.1-android/93a01f078afdae98fbb10bb58d88b7bc9b1ff8e3/tuples-3.1.1-android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/tuples/3.1.1-android/7368b2679e71f1d922b8f39430e3016725d9fb48/tuples-3.1.1-android-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

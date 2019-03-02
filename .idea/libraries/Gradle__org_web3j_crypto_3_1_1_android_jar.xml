@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.web3j:crypto:3.1.1-android@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/crypto/3.1.1-android/91e67bcfbf924d46c2bc616c8fb5e2b1bc8c36a2/crypto-3.1.1-android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.web3j/crypto/3.1.1-android/e0c3c765de5a4a02cc607443f97b82881d3ac263/crypto-3.1.1-android-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

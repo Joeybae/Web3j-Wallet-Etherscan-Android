@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/tabs3"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:background="#28418d"
+            android:gravity="center_vertical"
+            android:text="   My Wallet"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+
+                <TextView
+                    android:id="@+id/addresstext1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:text="Wallet : "
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/addressed1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12dp"
+                    android:longClickable="true"
+                    android:textIsSelectable="true"
+                    android:gravity="center_vertical"
+                    android:text="Select your wallet" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <Button
+                    android:id="@+id/btnaddress1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#28418d"
+                    android:text="Select\nWallet"
+                    android:textColor="#fff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_alignParentLeft="true">
+
+                <TextView
+                    android:id="@+id/checkvaluetext"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+                    android:text="Balance : "
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/checkvalue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:text="Push Check Button" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <Button
+                    android:id="@+id/checkvaluebtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="#28418d"
+                    android:text="Check\nValue"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:textColor="#fff"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tabs4"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="#28418d"
+        android:gravity="center_vertical"
+        android:text="   Wallet Detail"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="testNetwork"
+                android:textColor="#fff"
+                android:background="#28418d"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Version Check" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="generateWallet"
+                android:textColor="#fff"
+                android:background="#28418d"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Make and Load Wallet" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="transation"
+                android:textColor="#fff"
+                android:background="#28418d"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="Send" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="switchWallet"
+                android:textColor="#fff"
+                android:background="#28418d"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:text="My Wallet List" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:background="#28418d"
+                android:onClick="transactionlist"
+                android:text="My Transaction List"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

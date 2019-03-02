@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Web3jWalletEtherscanAndroid</string>
+    <string name="api">put your etherscan.io ropsten testnet api</string>
+</resources>

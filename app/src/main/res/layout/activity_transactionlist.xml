@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransactionlistActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tabs2"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:background="#28418d"
+                android:text="   Transaction Detail"
+                android:gravity="center_vertical"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal"
+                    android:layout_alignParentLeft="true">
+
+                    <TextView
+                        android:id="@+id/addresstext"
+                        android:layout_width="78dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="right"
+                        android:text="Wallet : "
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/addressed"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:longClickable="true"
+                        android:textIsSelectable="true"
+                        android:text="Select your wallet" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <Button
+                        android:id="@+id/btnaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:background="#28418d"
+                        android:text="Select\nWallet"
+                        android:layout_marginTop="1dp"
+                        android:textColor="#fff"
+                        android:textSize="13dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#28418d"
+                        android:textColor="#fff"
+                        android:textSize="13dp"
+                        android:text="Balance Check"
+                        android:clickable="true"
+                        android:id="@+id/balance_chk"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#28418d"
+                        android:textColor="#fff"
+                        android:clickable="true"
+                        android:textSize="13dp"
+                        android:text="Transcation List"
+                        android:id="@+id/transaction_chk"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tabs3"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:background="#28418d"
+                    android:text="   Balance"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/balance_text"/>
+
+                <TextView
+                    android:id="@+id/tabs4"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:background="#28418d"
+                    android:text="   Transaction List"
+                    android:gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/transaction_text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
